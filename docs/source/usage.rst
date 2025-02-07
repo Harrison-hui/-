@@ -27,8 +27,10 @@ will raise an exception.
 .. autoexception:: lumache.InvalidKindError
 
 For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
+.. code-block:: python
+import lumache
+lumache.get_random_ingredients()
+"""
 ['shells', 'gorgonzola', 'parsley']
+"""
 
